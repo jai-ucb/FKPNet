@@ -12,7 +12,7 @@
 ## Table of Contents
 
 * [About Repository](#about-repository)
-* [Presentation](#description)
+* [Presentation](#presentation)
 * [EDA](#eda)
 * [Outlier Detection](#outlier-detection)
 * [Image Augmentation](#image-augmentation)
@@ -25,11 +25,11 @@ About Repository
 This repository is used to host all the code related to the final project along with the link to the final presentation.
 
 
-<!-- DESCRIPTION -->
+<!-- presentation -->
 Presentation
 ------------
 
-The final presentation for this project is hosted on google dirve with the link here. [Link to Presentation](https://docs.google.com/presentation/d/1zQLQ3WyMFHNmQW__SyUghMysKJFmwZ9nAzqLj_FVT9g/edit?usp=sharing)
+The final presentation for this project is hosted on google dirve with the link here -> [Link to Presentation](https://docs.google.com/presentation/d/1zQLQ3WyMFHNmQW__SyUghMysKJFmwZ9nAzqLj_FVT9g/edit?usp=sharing)
 
 <!-- eda -->
 EDA
@@ -49,9 +49,14 @@ Image Augmentation
 ------------
 
 Image Augmentation is a python application with code is broken down into three sections
-1. Main Class  [Main Class](Project_2_Part1.ipynb)
-2. Augmentation Class  [Augmentation Class](Project_2_Part1.ipynb)
-3. Tools   [Tools](Project_2_Part1.ipynb)
+1. Main Class ->[Main Class](Image_Augmentation/main.py)
+2. Augmentation Class ->[Augmentation Class](Image_Augmentation/Aug_Image.py)
+3. Tools ->[Tools](Image_Augmentation/tools.py)
+
+Example of running the application:
+- python main.py
+
+Application assumes that the training.csv file is located in the same folder. Application will create a file called train_aug.csv that will contain the augmented images.
 
 <!-- model -->
 Model
