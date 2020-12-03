@@ -8,11 +8,10 @@ from math import sin, cos, pi
 # df              = data frame with feature points and image data
 # image_idx       = index in the dataframe of the image to use
 # aug_type_detail = degrees for rotation
-# show_image_flag = T to show image
 #
 # OUTPUT:
-# rot_image       = rotated image
-# rot_points      = all feature points rotated
+# aug_image       = aug image
+# aug_points      = feature points
 # ==================================================================================
 def image_augmentation_rotation(df,image_idx,aug_type_detail):    
         
@@ -78,11 +77,10 @@ def add_image_points_to_df(df_source, aug_image,aug_points,image_idx,aug_type,un
 # INPUT:
 # df              = data frame with feature points and image data
 # image_idx       = index in the dataframe of the image to use
-# show_image_flag = T to show image
 #
 # OUTPUT:
-# aug_image       = mirror image
-# aug_points      = all feature points mirrored
+# aug_image       = aug image
+# aug_points      = feature points
 # ==================================================================================
 def image_augmentation_mirror(df,image_idx):    
     
@@ -112,7 +110,7 @@ def image_augmentation_mirror(df,image_idx):
 #
 # OUTPUT:
 # aug_image       = aug image
-# aug_points      = all feature points 
+# aug_points      = feature points 
 # ==================================================================================
 def image_augmentation_pixelate(df,image_idx,x_zoom,y_zoom):    
     
@@ -141,11 +139,12 @@ def image_augmentation_pixelate(df,image_idx,x_zoom,y_zoom):
 # INPUT:
 # df              = data frame with feature points and image data
 # image_idx       = index in the dataframe of the image to use
-# shift           = how much to shift image in x direction
+# shift_x         = how much to shift image in x direction
+# shift_y         = how much to shift image in y direction
 #
 # OUTPUT:
-# aug_image       = mirror image
-# aug_points      = all feature points mirrored
+# aug_image       = shift image
+# aug_points      = feature points
 # ==================================================================================
 def image_augmentation_shift(df,image_idx,x_shift,y_shift):    
     
@@ -171,11 +170,12 @@ def image_augmentation_shift(df,image_idx,x_shift,y_shift):
 # INPUT:
 # df              = data frame with feature points and image data
 # image_idx       = index in the dataframe of the image to use
-# shift           = how much to shift image in x direction
+# x_zoom          = 
+# y_zoom          = 
 #
 # OUTPUT:
-# aug_image       = mirror image
-# aug_points      = all feature points mirrored
+# aug_image       = zoom image
+# aug_points      = feature points
 # ==================================================================================
 def image_augmentation_zoom(df,image_idx,x_zoom,y_zoom):    
     

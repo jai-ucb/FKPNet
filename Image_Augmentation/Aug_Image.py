@@ -1,9 +1,6 @@
-#import stat
 import os
-#import time
 import multiprocessing
 import subprocess
-#from time import sleep
 from tools import *
 import numpy as np
 import pandas as pd
