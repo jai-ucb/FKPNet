@@ -54,7 +54,8 @@ Image Augmentation is a python application with code is broken down into three s
 3. Tools ->[Tools](Image_Augmentation/tools.py)
 
 Example of running the application:
-- python main.py
+    
+    python main.py
 
 Application assumes that the training.csv file is located in the same folder. Application will create a file called train_aug.csv that will contain the augmented images.
 
