@@ -35,13 +35,13 @@ The final presentation for this project is hosted on google drive with the link 
 EDA
 ------------
 
-- Please use the following link to open the EDA notebook -> [Jupyter Notebook EDA](Project_2_Part1.ipynb)
+- Please use the following link to open the EDA notebook -> [Jupyter Notebook EDA](EDA_preprocessing/proj4_preprocess_func.ipynb)
 
 <!-- preprocessing -->
 Preprocessing
 ------------
 
-- Please use the following link to open the preprocessing notebook -> [Jupyter Notebook Outlier_Detection](Project_2_Part1.ipynb)
+- Please use the following link to open the preprocessing notebook -> [Jupyter Notebook Preprocessing](EDA_preprocessing/proj4_eda_preprocessing.ipynb)
 
 
 <!-- IMAGE AUGMENTATION -->
