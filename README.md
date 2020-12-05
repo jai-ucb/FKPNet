@@ -14,7 +14,7 @@
 * [About Repository](#about-repository)
 * [Presentation](#presentation)
 * [EDA](#eda)
-* [Outlier Detection](#outlier-detection)
+* [Preprocessing](#preprocessing)
 * [Image Augmentation](#image-augmentation)
 * [Model](#model)
 
@@ -37,11 +37,11 @@ EDA
 
 - Please use the following link to open the EDA notebook -> [Jupyter Notebook EDA](Project_2_Part1.ipynb)
 
-<!-- outlier-detection -->
-Outlier Detection
+<!-- preprocessing -->
+Preprocessing
 ------------
 
-- Please use the following link to open the outlier detection notebook -> [Jupyter Notebook Outlier_Detection](Project_2_Part1.ipynb)
+- Please use the following link to open the preprocessing notebook -> [Jupyter Notebook Outlier_Detection](Project_2_Part1.ipynb)
 
 
 <!-- IMAGE AUGMENTATION -->
