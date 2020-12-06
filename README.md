@@ -62,6 +62,9 @@ Example of running the application:
 - Application assumes that the training.csv file is located in the same folder 
 - Application will create a file called train_aug.csv that will contain the augmented images
 
+Image selection for the augmentation is based on the flags that are added during EDA/preprocessing.  
+The selection is done in this notebook -> [Jupyter Notebook](Image_Augmentation/Image_Augmentation_Selection.ipynb)  
+
 <!-- model -->
 Model
 ------------
