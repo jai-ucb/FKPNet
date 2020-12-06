@@ -68,6 +68,8 @@ The selection is done in this notebook -> [Jupyter Notebook](Image_Augmentation/
 <!-- model -->
 Model
 ------------
+Final Model -> [Jupyter Notebook](models/Final_Model.ipynb)  
+
 All the models that were used and tested:
 - 1block_2FC -> [Jupyter Notebook](models/1block_2FC.ipynb)
 - 2block_2FC -> [Jupyter Notebook](models/2block_2FC.ipynb)
