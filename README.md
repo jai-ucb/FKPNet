@@ -70,14 +70,12 @@ Model
 ------------
 Final Model -> [Jupyter Notebook](models/Final_Model.ipynb)  
 
-All the models that were used and tested:
+Some of the models that were used and tested:
 - 1block_2FC -> [Jupyter Notebook](models/1block_2FC.ipynb)
 - 2block_2FC -> [Jupyter Notebook](models/2block_2FC.ipynb)
 - 3block_2FC -> [Jupyter Notebook](models/3block_2FC.ipynb)
 - 4block_2FC -> [Jupyter Notebook](models/4block_2FC.ipynb)
 - 5block_2FC -> [Jupyter Notebook](models/5block_2FC.ipynb)
 - 6block_2FC -> [Jupyter Notebook](models/6block_2FC.ipynb)
-- 6block_2FC_150_epochs -> [Jupyter Notebook](models/6block_2FC_150_epochs.ipynb)
-- data_augmented_6block_2FC -> [Jupyter Notebook](models/data_augmented_6block_2FC.ipynb)
 - eigenfaces_v3 -> [Jupyter Notebook](models/eigenfaces_v3.ipynb)
 - facenet-face-matching -> [Jupyter Notebook](models/facenet-face-matching.ipynb)
